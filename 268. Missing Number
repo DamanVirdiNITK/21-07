@@ -1,0 +1,9 @@
+    def missingNumber(self, nums: List[int]) -> int:
+        l = len(nums)
+        sum1 = l*(l+1)//2
+        
+        expectedSum = sum(nums)
+        return int(sum1- expectedSum)
+        
+#TC - O(1)
+#SC - O(1)
